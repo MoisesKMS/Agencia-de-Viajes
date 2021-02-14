@@ -1,6 +1,30 @@
 extends ./layout/index
 
 block contenido
-    p Nosotros
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas maiores eligendi excepturi, minus odit officia adipisci corporis sint fuga magnam delectus expedita aut dolore autem culpa iste. Veniam, deleniti rem.
 
-    
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto doloremque nisi sed perferendis deserunt voluptatibus doloribus ipsa illum expedita, commodi explicabo aspernatur veritatis voluptate. Ex esse officia itaque culpa a!
+
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quidem vero! Adipisci, minima.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="Precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios 
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
