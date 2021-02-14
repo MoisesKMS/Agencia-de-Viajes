@@ -7,9 +7,9 @@ const app = express();
 //conectar la base de datos
 db.authenticate()
     .then(()=>{
-        console.log('bases de datos');
+        console.log('Base de datos Conectada');
     })
-    .catch(error => console.log(error));
+    .catch(error => console.log('Hubo un error ', error));
 
 //Definir Puerto
 const port = process.env.PORT || 4000;
